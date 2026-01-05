@@ -1,0 +1,100 @@
+.page {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.page-content {
+  width: 100%;
+  max-width: 500px;
+}
+
+.page-header {
+  margin-bottom: 2.5rem;
+}
+
+.back {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  display: inline-block;
+  margin-bottom: 1rem;
+  transition: color 0.2s ease;
+}
+
+.back:hover {
+  color: var(--text);
+}
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* List Items */
+.page-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.list-item {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.list-item:last-child {
+  border-bottom: none;
+}
+
+.list-item-link {
+  display: block;
+  transition: opacity 0.2s ease;
+}
+
+.list-item-link:hover {
+  opacity: 0.7;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.25rem;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.item-meta {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.item-arrow {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.item-role {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.item-desc {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+.item-tech {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-top: 0.5rem;
+}
+
