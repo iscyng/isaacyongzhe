@@ -58,7 +58,7 @@ export default function Home() {
             href="mailto:justisaacyong@gmail.com"
             className="link"
           >
-            email
+            justisaacyong@gmail.com
           </a>
         </motion.div>
       </div>
